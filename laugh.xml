@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE foo [
+  <!ENTITY lol "lol">
+  <!ENTITY lol1 "&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;&lol;">
+  <!ENTITY lol2 "&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;&lol1;">
+]>
+<foo>&lol2;</foo>
